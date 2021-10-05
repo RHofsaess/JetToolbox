@@ -34,7 +34,7 @@ def jetToolbox( proc, jetType, jetSequence, outputFile,
 		JETCorrPayload='', JETCorrLevels = [ 'None' ], GetJetMCFlavour=True,
 		Cut = '',
 		postFix='',
-		bTagDiscriminators = '',  # blank means default list of discriminators, None means none
+		bTagDiscriminators = None,  # blank means default list of discriminators, None means none
 		bTagInfos = None,
 		subjetBTagDiscriminators = '',
 		subjetBTagInfos = None,
